@@ -1,0 +1,21 @@
+{
+  "name": "liangjiexi/swoole-client",
+  "description": "This is a helper for wechat.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "liangjiexi",
+      "email": "120967177@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Client\\": "src/Client"
+    }
+  }
+}
