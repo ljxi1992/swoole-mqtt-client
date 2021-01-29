@@ -15,7 +15,11 @@
   },
   "autoload": {
     "psr-4": {
-      "Mqtt\\": "src/"
-    }
+      "Mqtt\\": "src",
+      "App\\": "app"
+    },
+    "files": [
+      "src/functions.php"
+    ]
   }
 }

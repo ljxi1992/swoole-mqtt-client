@@ -5,10 +5,15 @@
  * Date: 2021/1/9
  * Time: 10:23
  */
-namespace Client;
-class Test{
-    public static function test()
-    {
-        echo 'This is a package';
-    }
-}
+echo __DIR__;die;
+namespace Mqtt\Client;
+use Mqtt\protocol\Mqtt;
+echo Mqtt::PUBREL;die;
+$config=[
+    'client_id'=>'product_test',
+    'username'=>'test',
+    'password'=>'test',
+];
+$client=new Client($config);
+$data=$client->connect();
+var_dump($data);
