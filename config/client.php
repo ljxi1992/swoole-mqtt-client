@@ -11,4 +11,5 @@ return [
     //'time_out' => 0.5,
     'keepalive' => 0,
     'debug'=>true,
+    'git'=>'1',
 ];
